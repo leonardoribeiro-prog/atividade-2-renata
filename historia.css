@@ -1,0 +1,44 @@
+/* Fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    background-color: rgb(180, 177, 177);
+    color: #333333;
+}
+
+/* Estilizando o título da página */
+h1 {
+    text-align: center;
+    color: #171ee4;
+}
+
+/* Estilizando os subtítulos */
+h2 {
+    color: #171ee4;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Estilizando as seções */
+section {
+    padding: 15px 0;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #cccccc;
+}
+
+/* Cor dos links */
+a {
+    color: #171ee4;
+}
+
+/* Estilizando o rodapé */
+footer {
+    text-align: center;
+    padding: 25px 10px;
+    background-color: #cccccc;
+    color: #333333;
+}

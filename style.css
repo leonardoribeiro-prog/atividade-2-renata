@@ -1,0 +1,90 @@
+/* Fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    background-color: rgb(180, 177, 177);
+    color: #333333;
+}
+
+/* Estilizando a imagem da pagina */
+img {
+    width: 450px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilizando o titulo da pagina */
+h1 {
+    text-align: center;
+    color: #171ee4;
+}
+
+/* Estilizando o subtitulo dos topicos da pagina */
+h2 {
+    color: #171ee4;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Agrupamento de seletores */
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilizando os parágrafos da pagina */
+section {
+    padding: 15px 0;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #cccccc;
+}
+
+/* Estilizando a introdução usando uma classe */
+.introducao {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Estilizando a seção de benefícios usando um ID */
+#beneficios {
+    background-color: #e8e8e8;
+    padding: 20px;
+}
+
+/* Estilizando a lista de benefícios */
+ul {
+    list-style-type: square;
+    padding-left: 35px;
+}
+
+/* Espaçamento entre os itens das listas */
+li {
+    margin-bottom: 8px;
+}
+
+/* Propriedades da borda inferior das seções */
+section {
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+/* Cor e espaçamento dos links */
+a {
+    color: #171ee4;
+    margin-right: 10px;
+}
+
+/* Estilizando o rodapé da pagina */
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 25px 10px;
+    background-color: #cccccc;
+    color: #333333;
+}
